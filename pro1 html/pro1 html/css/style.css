@@ -279,3 +279,22 @@ h6
     background-color: #f5f5f5;
     padding:50px 0;
 }
+
+.testimonials
+{
+    text-align: center;
+
+}
+.testimonials li
+{
+ display: inline;
+ padding-inline: 2px;
+ 
+}
+.testimonials ul
+{
+    margin: 0px;
+    padding: 0px 0px 20px;
+}
+
+
