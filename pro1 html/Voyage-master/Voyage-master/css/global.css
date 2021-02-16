@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto";
+  margin: 0; }
+
+span {
+  color: #1dd2af; }
+
+button {
+  padding: 10px;
+  border-radius: 3px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  margin: 0 5px; }
+  button:hover {
+    background-color: #1dd2af;
+    cursor: pointer; }
+
+input {
+  font-size: 13px;
+  padding: 10px; }
+
+.container {
+  max-width: 1200px;
+  margin: auto; }
+
+.fontAwesome {
+  font-family: 'Helvetica', FontAwesome, sans-serif; }
+
+@media only screen and (min-width: 768px) {
+  .flex-box {
+    display: flex;
+    justify-content: space-between; }
+  .container {
+    max-width: 768px;
+    margin: auto; } }
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    margin: auto; } }

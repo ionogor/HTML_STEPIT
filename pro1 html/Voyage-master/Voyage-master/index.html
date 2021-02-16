@@ -1,0 +1,190 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="icon" type="image/png" href="./img/v-favicon.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container top-bar">
+                <div class="logo">
+                    <img src="./img/logo.png">
+                </div>
+                <div class="collapse-btn">
+                    <svg id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="m464.883 64.267h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z" />
+                        <path
+                            d="m464.883 208.867h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z" />
+                        <path
+                            d="m464.883 353.467h-417.766c-25.98 0-47.117 21.137-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.012-21.137-47.149-47.117-47.149z" />
+                    </svg>
+                </div>
+                <nav class="nav-toggle">
+                    <div class="items">
+                        <div class="item"><a href="#">HOME</a></div>
+                        <div class="item"><a href="#">DESTINATIONS</a></div>
+                        <div class="item"><a href="#">CRUISES</a></div>
+                        <div class="item"><a href="#">SPECIALS</a></div>
+                        <div class="item"><a href="#">HOLIDAYS</a></div>
+                    </div>
+                </nav>
+            </div>
+            <div class="banner">
+                <div class="banner-slide">
+                    <div>
+                        <div class="crop-image">
+                            <img src="./img/background.png" alt="">
+                        </div>
+                        <div class="banner-content">
+                            <div class="content-align">
+                                <h2>TO TRAVEL IS TO A LIVE</h2>
+                                <p>You Don't Need Magic to Disappear. All you need is destination.</p>
+                                <div class="banner-buttons">
+                                    <button>SHOW ON THE MAP</button>
+                                    <button>MORE INFO</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="crop-image">
+                            <img src="./img/background.png" alt="">
+                        </div>
+                        <div class="banner-content">
+                            <div class="content-align">
+                                <h2>TO TRAVEL IS TO A LIVE</h2>
+                                <p>You Don't Need Magic to Disappear. All you need is destination.</p>
+                                <div class="banner-buttons">
+                                    <button>SHOW ON THE MAP</button>
+                                    <button>MORE INFO</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="crop-image">
+                            <img src="./img/background.png" alt="">
+                        </div>
+                        <div class="banner-content">
+                            <div class="content-align">
+                                <h2>TO TRAVEL IS TO A LIVE</h2>
+                                <p>You Don't Need Magic to Disappear. All you need is destination.</p>
+                                <div class="banner-buttons">
+                                    <button>SHOW ON THE MAP</button>
+                                    <button>MORE INFO</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="datepicker">
+                <div class="container flex-box datepicker-align">
+                    <div class="label">
+                        <p>FIND YOUR <span>HOLIDAYS</span></span>
+                    </div>
+                    <div class="datepicker-cells">
+                        <div class="destination-input">
+                            <p>Where</p>
+                            <input type="text" class="fontAwesome" placeholder="destination &#xf0ac;">
+                        </div>
+                        <div class="date-input">
+                            <p>When</p>
+                            <input type="text" id="datepickerID" class="fontAwesome" placeholder="select date  &#xf073;" readonly>
+                        </div>
+                    </div>
+                    <button>SEARCH</button>
+                </div>
+            </div>
+        </header>
+        <footer>
+            <div class="container footer-content">
+                <div class=" block newslatter">
+                    <h3>Newslatter</h3>
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate veli</p>
+                    <div class="subscribe">
+                        <input type="text" placeholder="Subscribes...">
+                        <button>GO</button>
+                    </div>
+                </div>
+                <div class="block latest-news">
+                    <h3>Latest News</h3>
+                    <div class="post">
+                        <div class="post-image">
+                            <img src="./img/post-img1.png">
+                        </div>
+                        <p>Postformat Gallery: Multiple images <span>October 21, 2013 - 3:31 pm</span></p>
+                    </div>
+                    <div class="post">
+                        <div class="post-image">
+                            <img src="./img/post-img2.png">
+                        </div>
+                        <p>Snowboarding is fun! <span>December 12, 2012 - 9:11 pm</span></p>
+                    </div>
+                </div>
+                <div class="block tags">
+                    <h3>Tags</h3>
+                    <ul>
+                        <li><a href="#">Agent Login</a></li>
+                        <li><a href="#">Customer Login</a></li>
+                        <li><a href="#">Not a Member?</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">New Horizons</a></li>
+                        <li><a href="#">Lanscape</a></li>
+                        <li><a href="#">Tags</a></li>
+                        <li><a href="#">Nice</a></li>
+                        <li><a href="#">Some</a></li>
+                        <li><a href="#">Portrait</a></li>
+                    </ul>
+                </div>
+                <div class="block address">
+                    <h3>Address</h3>
+                    <p>DieSachbearbeiter Schönhauser Allee 167c,10435 Berlin Germany <span>E-mail:</span>
+                        moin@blindtextgenerator.de</p>
+                    <div class="social">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="96.124px"
+                            height="96.123px" viewBox="0 0 96.124 96.123"
+                            style="enable-background:new 0 0 96.124 96.123;" xml:space="preserve">
+                            <path
+                                d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z" />
+                        </svg>
+                        <svg viewBox="0 -47 512.00203 512" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="m191.011719 419.042969c-22.140625 0-44.929688-1.792969-67.855469-5.386719-40.378906-6.335938-81.253906-27.457031-92.820312-33.78125l-30.335938-16.585938 32.84375-10.800781c35.902344-11.804687 57.742188-19.128906 84.777344-30.597656-27.070313-13.109375-47.933594-36.691406-57.976563-67.175781l-7.640625-23.195313 6.265625.957031c-5.941406-5.988281-10.632812-12.066406-14.269531-17.59375-12.933594-19.644531-19.78125-43.648437-18.324219-64.21875l1.4375-20.246093 12.121094 4.695312c-5.113281-9.65625-8.808594-19.96875-10.980469-30.777343-5.292968-26.359376-.863281-54.363282 12.476563-78.851563l10.558593-19.382813 14.121094 16.960938c44.660156 53.648438 101.226563 85.472656 168.363282 94.789062-2.742188-18.902343-.6875-37.144531 6.113281-53.496093 7.917969-19.039063 22.003906-35.183594 40.722656-46.691407 20.789063-12.777343 46-18.96875 70.988281-17.433593 26.511719 1.628906 50.582032 11.5625 69.699219 28.746093 9.335937-2.425781 16.214844-5.015624 25.511719-8.515624 5.59375-2.105469 11.9375-4.496094 19.875-7.230469l29.25-10.078125-19.074219 54.476562c1.257813-.105468 2.554687-.195312 3.910156-.253906l31.234375-1.414062-18.460937 25.230468c-1.058594 1.445313-1.328125 1.855469-1.703125 2.421875-1.488282 2.242188-3.339844 5.03125-28.679688 38.867188-6.34375 8.472656-9.511718 19.507812-8.921875 31.078125 2.246094 43.96875-3.148437 83.75-16.042969 118.234375-12.195312 32.625-31.09375 60.617187-56.164062 83.199219-31.023438 27.9375-70.582031 47.066406-117.582031 56.847656-23.054688 4.796875-47.8125 7.203125-73.4375 7.203125zm0 0" />
+                        </svg>
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="97.75px" height="97.75px"
+                            viewBox="0 0 97.75 97.75" style="enable-background:new 0 0 97.75 97.75;"
+                            xml:space="preserve">
+                            <path
+                                d="M48.875,0C21.883,0,0,21.882,0,48.875S21.883,97.75,48.875,97.75S97.75,75.868,97.75,48.875S75.867,0,48.875,0zM54.499,65.109c-4.521,0-8.773-2.444-10.229-5.219c0,0-2.432,9.645-2.943,11.506c-1.813,6.58-7.146,13.162-7.561,13.701c-0.289,0.375-0.928,0.258-0.994-0.24c-0.113-0.838-1.475-9.139,0.127-15.909c0.801-3.4,5.383-22.814,5.383-22.814s-1.334-2.673-1.334-6.625c0-6.205,3.596-10.837,8.074-10.837c3.807,0,5.645,2.859,5.645,6.286c0,3.828-2.436,9.552-3.693,14.856c-1.051,4.441,2.225,8.064,6.605,8.064c7.933,0,13.272-10.188,13.272-22.261c0-9.174-6.176-16.044-17.418-16.044c-12.697,0-20.615,9.471-20.615,20.052c0,3.646,1.078,6.221,2.764,8.21c0.773,0.915,0.883,1.283,0.602,2.333c-0.203,0.771-0.66,2.625-0.854,3.358c-0.279,1.062-1.137,1.44-2.098,1.049c-5.846-2.387-8.572-8.793-8.572-15.994c0-11.893,10.029-26.154,29.922-26.154c15.985,0,26.506,11.566,26.506,23.984C77.089,52.839,67.956,65.109,54.499,65.109z" />
+                        </svg>
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                            style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <path
+                                d="M348.832,428.544c-14.208,0-27.52-3.328-38.528-10.048c-8.8-5.12-16.544-13.824-19.616-22.112c-3.072-8.448-2.752-25.728-2.752-55.296V223.84h128.096v-95.808H287.936V0h-82.528c-3.328,26.336-9.312,48.192-18.112,65.088c-8.416,17.216-20.256,31.776-34.24,44.096c-14.464,12.192-36.864,21.504-57.088,28.128v72.544h68.704V389.28c0,23.52,2.368,41.472,7.424,53.728c4.96,12.352,13.44,23.968,26.4,34.848c12.736,11.008,27.968,19.456,46.176,25.408C262.4,509.12,276.352,512,299.808,512c20.576,0,39.808-1.952,57.408-6.272c17.632-4,36.8-10.08,58.816-20.352v-76.96C390.304,425.216,374.784,428.544,348.832,428.544z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

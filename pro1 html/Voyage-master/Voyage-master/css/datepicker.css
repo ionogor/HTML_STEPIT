@@ -1,0 +1,52 @@
+.datepicker {
+  background-color: #5e6b78;
+  padding: 20px 0; }
+  .datepicker p {
+    margin: 0;
+    font-size: 22px;
+    color: #9fb0c0; }
+  .datepicker span {
+    color: white;
+    font-size: 24px; }
+  .datepicker .label {
+    text-align: center; }
+  .datepicker .datepicker-align {
+    width: 100%;
+    text-align: center; }
+    .datepicker .datepicker-align div,
+    .datepicker .datepicker-align button {
+      height: min-content;
+      margin: 5px; }
+  .datepicker .destination-input,
+  .datepicker .date-input {
+    display: flex;
+    align-items: center; }
+    .datepicker .destination-input p,
+    .datepicker .date-input p {
+      padding-right: 10px;
+      width: 25%;
+      margin: 5px; }
+    .datepicker .destination-input input,
+    .datepicker .date-input input {
+      width: 75%;
+      margin: 5px; }
+
+div.ui-datepicker {
+  margin: 0 auto; }
+
+@media only screen and (min-width: 420px) {
+  .datepicker-cells {
+    display: flex;
+    justify-content: center; } }
+
+@media only screen and (min-width: 768px) {
+  .datepicker .datepicker-align {
+    width: auto;
+    justify-content: space-between;
+    align-items: center; }
+  .datepicker .label {
+    text-align: left; }
+  .datepicker p,
+  .datepicker input,
+  .datepicker button {
+    width: auto; } }

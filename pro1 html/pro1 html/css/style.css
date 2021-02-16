@@ -1,0 +1,237 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0px;
+    padding: 0px;
+}
+
+.nav_header ul
+{
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+
+}
+.nav_header li
+{
+    margin: 10px;
+  
+}
+.logo
+{
+    margin:10px;
+    padding-right: 10px;
+   
+}
+.nav_header a
+{
+ text-decoration: none;
+ color: black;
+}
+header
+{
+    background-image: url(../media/bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+   
+
+}
+.top_bar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.container
+{
+    max-width: 1200px;
+    margin:auto;
+
+}
+.banner_desc
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 500px;
+    padding-left: 700px;
+}
+
+.btn a{
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    
+
+}
+.wrapper
+{
+    background-color: rgba(255, 255, 255, 0.2)
+}
+p{
+    line-height: 1.5;
+    font-family: 'Rubik','sans-serif';
+}
+
+.img_cont
+{
+    display: flex;
+    margin: 1.1em;
+}
+
+.btn
+{
+    background-color : #10c9c3;
+    padding: 30px 30px;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    width: 150px;
+ 
+}
+.but-meniu
+{
+   /* padding: 20px 50px; */
+    background-color:#10c9c3;
+    width: fit-content;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.button{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.but-meniu:hover .button
+{
+    color: rgb(58, 228, 109);
+    font-size: 19px;
+    transition:all 0.2s;
+}
+.section
+{
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.stats-progress
+{
+    width: 50%;
+    padding: 80px 80px 80px 0;
+}
+.progress-bar
+{
+    background-color: #787878;
+
+}
+.progress-bar .percent
+{
+    background-color: #10c9c3;
+    height: 2px;
+    width: 90%;
+}
+h6
+{
+    font-size: 15px;
+}
+.progress-item:nth-of-type(1) .percent
+{
+    width: 75%;
+}
+.progress-item:nth-of-type(1) .percent
+{
+    width: 90%;
+}
+.progress-item:nth-of-type(1) .percent
+{
+    width: 65%;
+}
+
+.pro-skills
+{
+    background-image: url("../media/bg.jpeg");
+}
+
+.green-bg
+{
+    background-color:#10c9c3 ;
+}
+
+.container.stats
+{
+    display: flex;
+}
+
+.block-stats
+{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.block-stats p,
+.block-stats h6
+{
+    margin: 0 35px;
+}
+
+.block-stats p{
+    font-size: 12px;
+}
+
+.gallary-item
+{
+    width: 25%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+.gallary
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.gallary-item img
+{
+    width: auto;
+    height: 100%;
+    display: flex;
+}
+.wrapper-gallary
+{
+    background-image: url("../media/about.png");
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-color: rgba(000, 000, 000, 0.5);
+    display: none;
+
+}
+.gallary-item:hover .wrapper-gallary
+{
+    display: block;
+    cursor: pointer;
+}
+.nav_header li :hover
+{
+    font-size: 19px;
+    transition-duration: 0,5s;
+    color: rgb(58, 228, 109);
+    
+}
+
